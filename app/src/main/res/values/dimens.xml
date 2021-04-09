@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activityMainButtonCorners">25dp</dimen>
+    <dimen name="activityMainButtonWidth">150dp</dimen>
+    <dimen name="activityMainButtonHeight">40dp</dimen>
+    <dimen name="activityMainHeaderTop">50dp</dimen>
+    <dimen name="activityMainHeaderFontSize">70dp</dimen>
+    <dimen name="activityMainImageSize">100dp</dimen>
+    <dimen name="activityMainButtonPadding">10dp</dimen>
+    <dimen name="splashScreenIconMargins">100dp</dimen>
+    <dimen name="splashScreenGradientAngle">45</dimen>
+</resources>

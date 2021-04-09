@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        The parent makes no blocky thing on top of the screen appear (change it if you don't like what material design leaves)
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style> -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+    <style name="activityMainButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingRight">@dimen/activityMainButtonPadding</item>
+        <item name="android:paddingLeft">@dimen/activityMainButtonPadding</item>
+        <!-- <item name="android:background">@drawable/main_button</item> -->
+        <item name="android:textColor">@color/activityMainButtonTextColor</item>
+    </style>
+    <style name="activityMainHeader">
+        <item name="android:text">@string/activityMainHeader</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activityMainHeaderTop</item>
+        <item name="android:fontFamily">@font/podkova</item>
+        <item name="android:textSize">@dimen/activityMainHeaderFontSize</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="activityMainImage">
+        <item name="android:layout_height">@dimen/activityMainImageSize</item>
+        <item name="android:layout_width">@dimen/activityMainImageSize</item>
+    </style>
+    <style name="closeConnectionButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingRight">@dimen/activityMainButtonPadding</item>
+        <item name="android:paddingLeft">@dimen/activityMainButtonPadding</item>
+        <item name="android:background">@drawable/close_connection_button_background</item>
+        <item name="android:textColor">@color/activityMainButtonTextColor</item>
+    </style>
+    <style name="splashScreenIconStyle">
+        <item name="android:src">@drawable/app_icon</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_width">@dimen/splashScreenIconMargins</item>
+        <item name="android:layout_height">@dimen/splashScreenIconMargins</item>
+    </style>
+
+</resources>

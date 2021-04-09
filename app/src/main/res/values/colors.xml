@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DE4F45</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="activityMainButtonColor">#777777</color>
+    <color name="activityMainButtonTextColor">#FFFFFF</color>
+    <color name="iconBGGradientStartColor">#00416A</color>
+    <color name="iconBGGradientEndColor">#E4E5E6</color>
+    <color name="closeConnectionButtonColor">#D80050</color>
+    <color name="gradientViewStartColor">#C6FFDD</color>
+    <color name="gradientViewMidColor">#FBD766</color>
+    <color name="gradientViewEndColor">#F7797D</color>
+</resources>

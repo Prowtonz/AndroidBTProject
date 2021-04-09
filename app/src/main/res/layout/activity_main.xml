@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+
+        <variable name="viewmodel" type="com.example.roomautomation.BluetoothViewModel"/>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/activityMainHeader"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/image"
+            style="@style/activityMainImage"
+            app:layout_constraintBottom_toTopOf="@+id/connectButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/connectButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{viewmodel.buttonText}"
+            android:paddingLeft="@dimen/activityMainButtonPadding"
+            android:textColor="@color/activityMainButtonTextColor"
+            android:paddingRight="@dimen/activityMainButtonPadding"
+            app:cornerRadius="@dimen/activityMainButtonCorners"
+            app:backgroundTint="@color/activityMainButtonColor"
+            app:layout_constraintBottom_toTopOf="@+id/closeConnectionButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/closeConnectionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:text="@string/closeConnectionButtonText"
+            android:textColor="@color/activityMainButtonTextColor"
+            android:paddingLeft="@dimen/activityMainButtonPadding"
+            android:paddingRight="@dimen/activityMainButtonPadding"
+            app:cornerRadius="@dimen/activityMainButtonCorners"
+            app:backgroundTint="@color/closeConnectionButtonColor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/connectButton" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
