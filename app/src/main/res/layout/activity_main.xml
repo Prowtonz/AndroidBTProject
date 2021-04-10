@@ -2,6 +2,7 @@
 <layout xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <data>
 
         <variable name="viewmodel" type="com.example.roomautomation.BluetoothViewModel"/>
@@ -28,7 +29,8 @@
             app:layout_constraintBottom_toTopOf="@+id/connectButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:contentDescription="@string/contentDescription" />
 
         <Button
             android:id="@+id/connectButton"
@@ -62,4 +64,5 @@
             app:layout_constraintTop_toBottomOf="@+id/connectButton" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </layout>

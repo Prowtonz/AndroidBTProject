@@ -3,4 +3,5 @@
     <string name="activityMainHeader">Connect Via Bluetooth</string>
     <string name="closeConnectionButtonText">End Connection</string>
     <string name="splashScreenIconDescription">Application icon</string>
+    <string name="contentDescription">null</string>
 </resources>

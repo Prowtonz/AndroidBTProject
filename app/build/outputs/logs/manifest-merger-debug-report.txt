@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:1:1-33:12
-INJECTED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:1:1-33:12
-INJECTED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:1:1-33:12
-INJECTED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:1:1-33:12
+ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:1:1-33:12
+INJECTED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:1:1-33:12
+INJECTED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:1:1-33:12
+INJECTED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:1:1-33:12
 MERGED from [androidx.databinding:databinding-adapters:3.5.1] C:\Users\13237\.gradle\caches\transforms-2\files-2.1\2fd96cf120d726db29579aa20a228736\databinding-adapters-3.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:3.5.1] C:\Users\13237\.gradle\caches\transforms-2\files-2.1\dcf4536f48ce679df9c239c0dd8bb3fd\databinding-runtime-3.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.2.0-alpha06] C:\Users\13237\.gradle\caches\transforms-2\files-2.1\cef5a4fdd8fe1c06648708ad373d6ca1\material-1.2.0-alpha06\AndroidManifest.xml:17:1-24:12
@@ -49,37 +49,37 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\13237\.gradle\caches\transforms-2\files-2.1\2b86797c9f03b1904e4e1ea1f74f5bf2\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\13237\.gradle\caches\transforms-2\files-2.1\ac491061dad848fba0053ec19d2c98fc\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\13237\.gradle\caches\transforms-2\files-2.1\5bbd8891ce4907264d3c87264e73f85f\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:1:1-33:12
-INJECTED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:1:1-33:12
-INJECTED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:1:1-33:12
+INJECTED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:1:1-33:12
+INJECTED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:1:1-33:12
+INJECTED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:1:1-33:12
 	package
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:2:5-41
-		INJECTED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:2:5-41
+		INJECTED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:1:1-33:12
-		INJECTED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:1:1-33:12
+		INJECTED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:1:1-33:12
-		INJECTED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:1:1-33:12
+		INJECTED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:3:5-67
+ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:3:5-67
 	android:name
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:3:22-65
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:3:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:4:5-73
+ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:4:5-73
 	android:name
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:4:22-71
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:4:22-71
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:5:5-74
+ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:5:5-74
 	android:name
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:5:22-72
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:5:22-72
 application
-ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:7:5-32:19
+ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:7:5-32:19
 MERGED from [com.google.android.material:material:1.2.0-alpha06] C:\Users\13237\.gradle\caches\transforms-2\files-2.1\cef5a4fdd8fe1c06648708ad373d6ca1\material-1.2.0-alpha06\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.0-alpha06] C:\Users\13237\.gradle\caches\transforms-2\files-2.1\cef5a4fdd8fe1c06648708ad373d6ca1\material-1.2.0-alpha06\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] C:\Users\13237\.gradle\caches\transforms-2\files-2.1\dc4c9b865b57e6106eb52966a40e9e11\constraintlayout-2.0.0-alpha3\AndroidManifest.xml:9:5-20
@@ -95,53 +95,53 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\13
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.2.0] C:\Users\13237\.gradle\caches\transforms-2\files-2.1\7769d218502537a90b3c0d5247429b00\core-1.2.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:9:9-40
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:9:9-40
 	android:allowBackup
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:13:9-40
 activity#com.example.roomautomation.SplashScreen
-ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:14:9-21:20
+ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:14:9-21:20
 	android:theme
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:15:13-44
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:15:13-44
 	android:name
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:14:19-47
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:14:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:19:27-74
 activity#com.example.roomautomation.MainActivity
-ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:22:9-28:20
+ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:22:9-28:20
 	android:name
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:22:19-47
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:22:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT
-ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:23:13-27:29
+ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:23:13-27:29
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:26:17-76
+ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:26:17-76
 	android:name
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:26:27-73
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:26:27-73
 meta-data#preloaded_fonts
-ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:29:9-31:57
+ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:29:9-31:57
 	android:resource
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:31:13-54
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:31:13-54
 	android:name
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml:30:13-43
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml:30:13-43
 uses-sdk
-INJECTED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:databinding-adapters:3.5.1] C:\Users\13237\.gradle\caches\transforms-2\files-2.1\2fd96cf120d726db29579aa20a228736\databinding-adapters-3.5.1\AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-adapters:3.5.1] C:\Users\13237\.gradle\caches\transforms-2\files-2.1\2fd96cf120d726db29579aa20a228736\databinding-adapters-3.5.1\AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-runtime:3.5.1] C:\Users\13237\.gradle\caches\transforms-2\files-2.1\dcf4536f48ce679df9c239c0dd8bb3fd\databinding-runtime-3.5.1\AndroidManifest.xml:22:5-44
@@ -232,16 +232,16 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\13237\.gradle\ca
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\13237\.gradle\caches\transforms-2\files-2.1\ac491061dad848fba0053ec19d2c98fc\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\13237\.gradle\caches\transforms-2\files-2.1\5bbd8891ce4907264d3c87264e73f85f\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\13237\.gradle\caches\transforms-2\files-2.1\5bbd8891ce4907264d3c87264e73f85f\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\13237\Desktop\AndroidBTSmartHome\AndroidBTProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\13237\Desktop\AndroidBTProject\app\src\main\AndroidManifest.xml
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha03] C:\Users\13237\.gradle\caches\transforms-2\files-2.1\a65b68fd6c7bef74d8d4fc7580fad10a\lifecycle-process-2.2.0-alpha03\AndroidManifest.xml:25:9-29:43
 	android:authorities

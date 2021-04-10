@@ -17,7 +17,7 @@ internal const val CONNECT = "Connect"
 private const val NO_BLUETOOTH_ADAPTER = "Get a damn bluetooth phone you rat bastard!"
 private const val CONNECTION_FAILED = "Connection failed"
 private const val BLUETOOTH_IMAGE = R.drawable.bluetooth
-private const val SKYLIGHT_UP = R.drawable.up_arrow
+private const val SKYLIGHT_DIRECTION = R.drawable.arrow
 private const val CONNECTING = "Connecting"
 private const val CONNECTED = "Connected"
 private const val ADDRESS = "DC:A6:32:09:7B:50"
@@ -93,7 +93,7 @@ class BluetoothViewModel: ViewModel() {
                     liveIsConnected.value = true
                     liveButtonText.value = OPEN_SKYLIGHT
                     liveToastText.value = CONNECTED
-                    liveImageGraphic.value = SKYLIGHT_UP
+                    liveImageGraphic.value = SKYLIGHT_DIRECTION
                 }
             } catch(e: Exception) {
                 withContext(Dispatchers.Main) {

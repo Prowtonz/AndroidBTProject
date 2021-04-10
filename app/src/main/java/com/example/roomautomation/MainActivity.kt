@@ -11,6 +11,8 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.roomautomation.databinding.ActivityMainBinding
 import kotlin.system.exitProcess
 
+private const val ROTATION_ANIMATION_DURATION = 500L
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
@@ -27,11 +29,11 @@ class MainActivity : AppCompatActivity() {
         initializeArrowAnimations()
 
         //Click listeners
-        binding.closeConnectionButton.setOnClickListener{ viewModel.closeConnection() }
+        binding.closeConnectionButton.setOnClickListener {
+            viewModel.closeConnection()
+        }
 
         //LiveData observers
-        viewModel.toastText.observe(this, Observer { Toast.makeText(this, it, Toast.LENGTH_SHORT).show() })
-        viewModel.imageGraphic.observe(this, Observer { binding.image.setImageResource(it) })
         viewModel.isConnected.observe(this, Observer {
             if(it == true) {
                 binding.textView.visibility = View.INVISIBLE
@@ -39,9 +41,13 @@ class MainActivity : AppCompatActivity() {
             } else {
                 binding.textView.visibility = View.VISIBLE
                 binding.closeConnectionButton.visibility = View.INVISIBLE
+                upRotationAnimation.cancel()
+                downRotationAnimation.cancel()
                 binding.image.rotation = 0f
             }
         })
+        viewModel.toastText.observe(this, Observer { Toast.makeText(this, it, Toast.LENGTH_SHORT).show() })
+        viewModel.imageGraphic.observe(this, Observer { binding.image.setImageResource(it) })
         viewModel.runApp.observe(this, Observer {
             if(it) {
                 finish()
@@ -50,28 +56,25 @@ class MainActivity : AppCompatActivity() {
         })
         viewModel.buttonText.observe(this, Observer {
             when(it) {
-                ENABLE_BLUETOOTH -> binding.connectButton.setOnClickListener{ viewModel.enableBT() }
-                CONNECT -> binding.connectButton.setOnClickListener{ viewModel.connect() }
+                ENABLE_BLUETOOTH-> binding.connectButton.setOnClickListener { viewModel.enableBT() }
+                CONNECT -> binding.connectButton.setOnClickListener { viewModel.connect() }
                 OPEN_SKYLIGHT -> binding.connectButton.setOnClickListener {
                     viewModel.toggleLED()
                     if(downRotationAnimation.isRunning) downRotationAnimation.setCurrentFraction(1.0f)
                     upRotationAnimation.start()
                 }
-                CLOSE_SKYLIGHT -> {
-                    binding.connectButton.setOnClickListener {
-                        viewModel.toggleLED()
-                        if (upRotationAnimation.isRunning) upRotationAnimation.setCurrentFraction(1.0f)
-                        downRotationAnimation.start()
-                    }
+                CLOSE_SKYLIGHT -> binding.connectButton.setOnClickListener {
+                    viewModel.toggleLED()
+                    if(upRotationAnimation.isRunning) upRotationAnimation.setCurrentFraction(1.0f)
+                    downRotationAnimation.start()
                 }
             }
         })
-
     }
 
     private fun initializeArrowAnimations() {
-        downRotationAnimation = ObjectAnimator.ofFloat(binding.image, "rotation", 0f, 180f).setDuration(1000L)
-        upRotationAnimation = ObjectAnimator.ofFloat(binding.image, "rotation", 180f, 360f).setDuration(1000L)
+        upRotationAnimation = ObjectAnimator.ofFloat(binding.image, "rotation", 0f, 180f).setDuration(ROTATION_ANIMATION_DURATION)
+        downRotationAnimation = ObjectAnimator.ofFloat(binding.image, "rotation", 180f, 360f).setDuration(ROTATION_ANIMATION_DURATION)
     }
 
 }

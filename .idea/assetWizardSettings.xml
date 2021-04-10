@@ -152,8 +152,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="down_arrow" />
-                            <entry key="sourceFile" value="C:\Users\13237\Downloads\downArrow.svg" />
+                            <entry key="outputName" value="ic_arrow" />
+                            <entry key="sourceFile" value="C:\Users\13237\Downloads\arrow.svg" />
                           </map>
                         </option>
                       </PersistentState>
